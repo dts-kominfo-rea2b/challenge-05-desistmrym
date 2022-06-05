@@ -11,7 +11,7 @@ const sorter = (name, i) => {
   let data = []
 
   res.forEach((item, index) => {
-    data.push(`${index+1} ${item}`);
+    data.push(`${index+1}. ${item}`);
   })
 
   return data;
